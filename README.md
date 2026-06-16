@@ -16,42 +16,46 @@ The application leverages the **Model Context Protocol (MCP)** standard to decou
 
 ```mermaid
 graph TD
-    UI[Streamlit Dashboard] -->|1. Trigger / Upload CSV| Orch[Orch/orchestrator.py]
-    Orch -->|2. Initialize| MCPM[Orch/mcp_manager.py]
-    
-    subgraph MCP Servers [MCP Servers (FastMCP Subprocesses)]
+    UI[Streamlit Dashboard] -->|1. Trigger Upload CSV| Orch[orchestrator.py]
+    Orch -->|2. Initialize| MCPM[mcp_manager.py]
+
+    subgraph MCP_Servers["MCP Servers (FastMCP Subprocesses)"]
         LDS[lead_data_server.py]
         BKS[business_knowledge_server.py]
         RPS[reporting_server.py]
         NTS[notification_server.py]
     end
-    
-    MCPM -->|3. Spawns & Connects| MCP Servers
-    
-    subgraph Autonomous Agents
+
+    MCPM -->|3. Spawns and Connects| LDS
+    MCPM --> BKS
+    MCPM --> RPS
+    MCPM --> NTS
+
+    subgraph Autonomous_Agents["Autonomous Agents"]
         LA[Lead Analysis Agent]
         BI[Business Insights Agent]
         RG[Report Generation Agent]
         TM[Task Management Agent]
         NA[Notification Agent]
     end
-    
-    Orch -->|4. Execute Step| LA
-    LA -->|Reads / Scores Leads| MCPM
-    Orch -->|5. Execute Step| BI
-    BI -->|Generates Trends & Exec Summary| Gemini[Gemini API]
-    Orch -->|6. Execute Step| RG
-    RG -->|Compiles HTML & Plots| MCPM
-    Orch -->|7. Execute Step| TM
-    TM -->|Derives Action Items| Gemini
-    Orch -->|8. Execute Step| NA
-    NA -->|Sends Reports / Alerts| MCPM
-    
-    Orch -->|9. Stream Updates & Logs| UI
+
+    Orch -->|4. Execute| LA
+    LA -->|Reads and Scores Leads| MCPM
+
+    Orch -->|5. Execute| BI
+    BI -->|Executive Insights| Gemini[Gemini API]
+
+    Orch -->|6. Execute| RG
+    RG -->|Reports and Charts| MCPM
+
+    Orch -->|7. Execute| TM
+    TM -->|Action Items| Gemini
+
+    Orch -->|8. Execute| NA
+    NA -->|Notifications| MCPM
+
+    Orch -->|9. Stream Updates and Logs| UI
 ```
-
----
-
 ## 📁 Repository Structure
 
 ```text
