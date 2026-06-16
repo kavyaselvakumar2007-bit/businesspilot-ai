@@ -1,0 +1,41 @@
+lead_id,company_name,industry,annual_revenue,employee_count,country,lead_source,interactions_count,estimated_conversion_rate,contact_email
+L001,Acme Corp,SaaS,12000000,150,USA,Website Demo,8,0.75,sales@acme.com
+L002,Global Health,Healthcare,45000000,500,Canada,Inbound Sales,4,0.45,procurement@globalhealth.org
+L003,Apex FinTech,Finance,8000000,45,USA,Outbound Cold Call,2,0.15,info@apexfin.com
+L004,Shopify Sellers,E-commerce,500000,10,UK,Self Service,1,0.05,admin@shopself.co.uk
+L005,Nova Tech Solutions,SaaS,3200000,35,Germany,Referral,6,0.60,ceo@novatech.de
+L006,BioResearch Labs,Healthcare,1500000,12,USA,Webinar,5,0.40,info@bioresearch.com
+L007,Pinnacle Group,Finance,95000000,800,USA,Partner Channel,10,0.85,contact@pinnacle.com
+L008,StyleVibe Fashion,E-commerce,2300000,18,France,Instagram Ads,3,0.25,support@stylevibe.fr
+L009,Starlight Media,SaaS,750000,8,Australia,SEO Blog,2,0.10,hello@starlight.io
+L010,HeavyMachinery Corp,Manufacturing,120000000,1200,Japan,Trade Show,3,0.30,imports@heavymach.co.jp
+L011,EcoPower Systems,Manufacturing,15000000,95,Sweden,Organic Search,5,0.50,contact@ecopower.se
+L012,FutureEdu,Education,400000,15,USA,Cold Email,1,0.08,dean@futureedu.org
+L013,CloudScale Inc,SaaS,28000000,210,USA,Website Demo,9,0.80,techops@cloudscale.com
+L014,CareFirst Hospitals,Healthcare,250000000,2500,USA,Executive Outreach,4,0.55,ceo@carefirst.org
+L015,SecureBank Ltd,Finance,450000000,3000,UK,Referral,12,0.90,security@securebank.co.uk
+L016,VeloCart,E-commerce,1200000,14,USA,Google Search,3,0.22,info@velocart.com
+L017,Quantum AI,SaaS,5000000,28,Canada,Product Hunt,7,0.70,founders@quantumai.ca
+L018,PharmaGiant,Healthcare,600000000,4500,Switzerland,Trade Show,6,0.65,licensing@pharmagiant.ch
+L019,CapitalTrust,Finance,12000000,55,USA,Inbound Demo,4,0.35,invest@captrust.com
+L020,CraftyCreations,E-commerce,150000,4,USA,Pinterest Ads,1,0.03,hello@craftycreations.com
+L021,Apex Manufacturing,Manufacturing,42000000,320,USA,Outbound Cold Call,2,0.18,supplies@apexman.com
+L022,EduLearn Portal,Education,2100000,22,India,YouTube Ads,4,0.30,partners@edulearn.in
+L023,LogiTrans Group,Manufacturing,78000000,600,Netherlands,Inbound Sales,5,0.48,ops@logitrans.nl
+L024,SaaSify Ltd,SaaS,1800000,20,UK,Self Service,3,0.15,info@saasify.co.uk
+L025,Nordic Finance,Finance,34000000,140,Norway,Referral,8,0.70,wealth@nordicfin.no
+L026,MedLife Care,Healthcare,8500000,65,USA,Webinar,4,0.38,admin@medlifecare.com
+L027,NextGen Gaming,SaaS,14500000,90,South Korea,SEO Blog,5,0.42,contact@nextgengame.kr
+L028,LuxeBoutique,E-commerce,4800000,25,Italy,Instagram Ads,6,0.50,buyer@luxeboutique.it
+L029,BrightMinds Academy,Education,950000,11,UK,Cold Email,2,0.12,admin@brightminds.edu
+L030,SolarFlow Enertech,Manufacturing,5200000,40,Germany,Organic Search,3,0.28,info@solarflow.de
+L031,WealthEngine,Finance,22000000,80,USA,Website Demo,7,0.62,leads@wealthengine.com
+L032,HealthDiagnostics,Healthcare,18000000,110,France,Trade Show,5,0.40,info@healthdiag.fr
+L033,CyberGuard Systems,SaaS,9800000,75,USA,Partner Channel,8,0.78,partner@cyberguard.com
+L034,QuickCart Solutions,E-commerce,3200000,16,Canada,Google Search,4,0.32,bizdev@quickcart.ca
+L035,PrecisionParts,Manufacturing,64000000,410,USA,Outbound Cold Call,1,0.08,procurement@preparts.com
+L036,AlphaInvest,Finance,150000000,500,Singapore,Executive Outreach,6,0.58,partners@alphainvest.sg
+L037,CareFree Dental,Healthcare,3500000,30,USA,Webinar,3,0.25,office@carefreedental.com
+L038,SkillUp Systems,Education,1200000,18,USA,Google Search,4,0.35,corp@skillup.com
+L039,AutoStore USA,E-commerce,8500000,45,USA,Referral,9,0.72,inquiries@autostore.com
+L040,DevOpsify,SaaS,5500000,40,USA,Product Hunt,8,0.68,hello@devopsify.io

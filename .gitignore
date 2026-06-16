@@ -1,0 +1,29 @@
+# Environment variables
+.env
+.env.local
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Persistence (except sample data)
+data/uploads/*
+data/history/*
+data/reports/*
+!data/sample_leads.csv
+
+# Logs
+logs/*.log
+logs/*.txt
+verify_requirements.log
+
+# IDE settings
+.vscode/
+.idea/
+.DS_Store
