@@ -27,3 +27,8 @@ verify_requirements.log
 .vscode/
 .idea/
 .DS_Store
+
+
+# Virtual environment
+.venv/
+venv/
